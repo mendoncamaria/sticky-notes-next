@@ -1,1 +1,49 @@
+/* page.module.css */
+.main {
+  height: 100vh;
+  background-color: black;
+  padding: 20px; /* Add padding for spacing */
+}
+.inputWrapper {
+  width: 100%;
+}
 
+.inputWrapper input {
+  width: 30%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  background-color: #333; /* Dark background color */
+  color: white; /* Text color */
+  border: none;
+  border-radius: 5px;
+}
+
+.box {
+  width: 100px;
+  /* max-width: content; */
+  height: 50px;
+  margin: 10px;
+  color: black; 
+  /* border: 1px solid #444;  */
+  border-radius: 5px;
+  padding: 10px;
+  overflow: visible;
+  white-space: nowrap;
+  position: relative;
+  text-overflow: initial;
+}
+
+.delete {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #ff5733; /* Delete button background color */
+  color: white; /* Delete button text color */
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
